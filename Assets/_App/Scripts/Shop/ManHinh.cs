@@ -20,7 +20,9 @@ public class ManHinh : MonoBehaviour
     {
         gameObject.SetActive(b);
     }
-
+/// <summary>
+/// /////////
+/// </summary>
     protected virtual void Back()
     {
         SetActive(false);

@@ -9,7 +9,9 @@ public class DonHang : SanPham
 
 [Serializable]
 public class SanPham
-{
+{/// <summary>
+ /// ////////////
+ /// </summary>
     public int ID;
     public Sprite anh;
     public Sprite anhHai;

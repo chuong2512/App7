@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+/// <summary>
+/// /////////
+/// </summary>
 public class ButtonRegister : MonoBehaviour
 {
     public int number;
@@ -11,7 +13,7 @@ public class ButtonRegister : MonoBehaviour
     public Button button;
 
     private void SetTextDay()
-    {
+    {/////////////
         switch (number)
         {
             case 1:

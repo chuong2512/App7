@@ -10,6 +10,14 @@ public class ThongTinBaiViet : ManHinh
     public TextMeshProUGUI name, thongTin, gia;
     private int ID;
 
+
+    public void ShowInfo(int id)
+    {
+        var sanPham = GameDataManager.Instance.SanPhamSo.GetSanPhamWithID(id);
+
+        SetInfo(sanPham);
+    }
+    
     private void Save()
     {
         GameDataManager.Instance.TickSave(ID);
@@ -29,10 +37,4 @@ public class ThongTinBaiViet : ManHinh
         thongTin?.SetText(product.thongTin);
     }
 
-    public void ShowInfo(int id)
-    {
-        var sanPham = GameDataManager.Instance.SanPhamSo.GetSanPhamWithID(id);
-
-        SetInfo(sanPham);
-    }
 }

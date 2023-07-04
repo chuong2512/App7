@@ -5,13 +5,6 @@ using UnityEngine;
 
 public class QuanLyDonHang : Singleton<QuanLyDonHang>
 {
-    public SanPhamUI sanPham;
-    public Transform content;
-    
-    void Start()
-    {
-      Refresh();
-    }
 
     public void Refresh()
     {
@@ -28,4 +21,13 @@ public class QuanLyDonHang : Singleton<QuanLyDonHang>
             obj.SetInfo(products[i]);
         }
     }
+
+    public SanPhamUI sanPham;
+    public Transform content;
+    
+    void Start()
+    {
+      Refresh();
+    }
+
 }
