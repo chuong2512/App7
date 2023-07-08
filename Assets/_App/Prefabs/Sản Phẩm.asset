@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1de118c01cd375348bc5b06db5d3937a, type: 3}
   m_Name: "S\u1EA3n Ph\u1EA9m"
   m_EditorClassIdentifier: 
+  name: 
+  infor: 
+  folderPath: Assets/App7
   SanPham:
   - ID: 0
     anh: {fileID: 21300000, guid: d96106dfdc398a745a8c76267750ac2e, type: 3}
@@ -48,4 +51,52 @@ MonoBehaviour:
     anhHai: {fileID: 0}
     thongTin: 
     gia: "2.000.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 6
+    anh: {fileID: 21300000, guid: 964e01b65424032419f5d22aca816cea, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "18.000.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 7
+    anh: {fileID: 21300000, guid: 4bb97e03a7cc9504f8f5c79834ac9c42, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "20.000.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 8
+    anh: {fileID: 21300000, guid: 40c1749e49c41804ca32697b0d2e83d5, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "330.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 9
+    anh: {fileID: 21300000, guid: bc9a4b232d395f1438a9ec271f849b22, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "7.000.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 10
+    anh: {fileID: 21300000, guid: 2ce0297c816320b4785e0c81fa95f9b5, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "440.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 11
+    anh: {fileID: 21300000, guid: c6b43da2bcf5c6148a1322c4ad5e1f4d, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "330.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 12
+    anh: {fileID: 21300000, guid: 93b9c77c1aecb6443ac06d55932b9b9e, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "12.000.000 \u0111"
+    name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
+  - ID: 13
+    anh: {fileID: 21300000, guid: 24f0c43f68b52994d8a184a69f415bc6, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "630.000 \u0111"
     name: "Tranh Treo T\u01B0\u1EDDng Thuy\u1EC1n V\xE0ng Ph\xE1t T\xE0i"
